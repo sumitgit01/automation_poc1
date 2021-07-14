@@ -7,14 +7,14 @@
 
 ###########################################################
 
-echo "1. Please enter SQL file source path: "
+#echo "1. Please enter SQL file source path: "
 
-read path
+#read path
 
-echo "2. Please enter run as username: "
+#echo "2. Please enter run as username: "
 
-read username
+#read username
 
-mysql -u $username -p < $path/run.sql
+mysql -u root -p Root@123 dbtest < /opt/git/coderepo/automation_poc1/run.sql
 
 echo "Successfully executed!"
