@@ -15,6 +15,6 @@
 
 #read username
 
-mysql -u root dbtest < /opt/git/coderepo/automation_poc1/run.sql >> output.txt
+mysql -u root -pRoot@123 dbtest < /opt/git/coderepo/automation_poc1/run.sql >> output.txt
 
 echo "Successfully executed!"
